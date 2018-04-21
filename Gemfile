@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
@@ -45,3 +46,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'devise', '~>4.2'
